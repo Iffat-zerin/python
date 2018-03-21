@@ -4,17 +4,39 @@ b = int(input())
 ## Exponent with Arithmetic Operator
 ## Syntax: base ** exponent
 exp = a ** b
+##finally
+
+a=int(input("enter the base num :"))
+b=int(input("enter the exponent num :"))
+exp=a**b
+print("the result is: ", exp)
 
 ## Exponent with Built-in Function
 ## Syntax: pow(base,exponent)
 # exp = pow(a,b)
+#finally
+a=int(input("enter the base num :"))
+b=int(input("enter the exponent num :"))
+exp=pow(a,b)
+print("the result is: ", exp)
 
 ## Return Modulo for Exponent with Built-in Function
 ## Syntax: pow(base,exponent, modulo)
 # exp = pow(a,b,2)
+#finally
+a=int(input("enter the base num :"))
+b=int(input("enter the exponent num :"))
+exp=pow(a,b,2)
+print("the result is: ", exp)
 
 ## Using Math Library
 # import math
 # exp = math.pow(a,b)
 
 print(exp)
+#finnally
+a=int(input("enter the base num :"))
+b=int(input("enter the exponent num :"))
+import math 
+exp=math.pow(a,b)
+print("the result is: ", exp)
