@@ -1,4 +1,4 @@
-a = int(input())
-b = int(input())
+a = int(input("enter the num :"))
+b = int(input("enter the num :"))
 rem = a % b
-print(rem)
+print("the result is : ",rem)
