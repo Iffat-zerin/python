@@ -1,4 +1,4 @@
-a = int(input())
-b = int(input())
+a = int(input("enter the num :"))
+b = int(input("enter the num :"))
 diff = a - b
-print(diff)
+print("the result is: ",diff)
