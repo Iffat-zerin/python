@@ -1,4 +1,4 @@
-a = int(input())
-b = int(input())
+a = int(input("Enter the num :"))
+b = int(input("Enter the num :"))
 div = a // b
-print(div)
+print("The ans is : "div)
